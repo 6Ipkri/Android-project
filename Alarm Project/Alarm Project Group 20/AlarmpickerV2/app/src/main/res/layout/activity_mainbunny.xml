@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+
+    tools:context="com.example.boony.alarmpickerv2.MainActivityBunny">
+
+
+    <FrameLayout
+        android:id="@+id/frame"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@drawable/baggame">
+
+        <TextView
+            android:id="@+id/scoreLabel"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:paddingBottom="10dp"
+            android:text="Score : 300"
+            android:textColor="@color/cardview_dark_background"
+            android:textSize="30dp"
+            android:textStyle="bold|italic" />
+
+        <TextView
+            android:id="@+id/startLabel"
+            android:layout_width="254dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="130dp"
+            android:text="      Tap to Start "
+            android:textColor="@android:color/background_light"
+            android:textSize="30sp" />
+
+        <ImageView
+            android:id="@+id/box"
+            android:layout_width="110dp"
+            android:layout_height="110dp"
+            android:layout_gravity="center_vertical"
+            android:src="@drawable/buny" />
+
+        <ImageView
+            android:id="@+id/orange"
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:src="@drawable/carot" />
+
+        <ImageView
+            android:id="@+id/black"
+            android:layout_width="24dp"
+            android:layout_height="24dp"
+            android:src="@drawable/black" />
+
+        <ImageView
+            android:id="@+id/pink"
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:src="@drawable/diamond" />
+
+
+    </FrameLayout>
+
+
+</LinearLayout>

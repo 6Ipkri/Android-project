@@ -1,0 +1,768 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".stp_4">
+
+
+    <View
+        android:id="@+id/view"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:background="#9932CC"
+        app:layout_constraintBottom_toBottomOf="@+id/textView33"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/textView20"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="8dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="8dp"
+        android:text="ระบบประมาณการ การแก้กระแสไฟฟ้าขัดข้อง"
+        android:textColor="#FFFFFF"
+        android:textSize="10sp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/view"
+        tools:ignore="HardcodedText" />
+
+    <TextView
+        android:id="@+id/textView33"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="8dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="4dp"
+        android:paddingBottom="10dp"
+        android:text="การไฟฟ้าส่วนภูมิภาคอำเภอวารินชำราบ"
+        android:textColor="#FFFFFF"
+        android:textSize="9dp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView20"
+        tools:ignore="HardcodedText" />
+
+    <Button
+        android:id="@+id/savebuttonstp4"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:background="#9932CC"
+        android:text="บันทึก"
+        android:textColor="#FFFFFF"
+        app:layout_constraintBottom_toBottomOf="@+id/view"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/textView20"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <ImageView
+        android:id="@+id/imageView3"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:contentDescription="TODO"
+        app:layout_constraintBottom_toBottomOf="@+id/view"
+        app:layout_constraintEnd_toStartOf="@+id/textView20"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/logopea"
+        tools:ignore="ContentDescription,HardcodedText" />
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/view">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical" >
+
+            <android.support.constraint.ConstraintLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+                <ImageView
+                    android:id="@+id/imageView8"
+                    android:layout_width="wrap_content"
+                    android:layout_height="60dp"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toTopOf="parent"
+                    app:srcCompat="@drawable/stp4" />
+
+                <View
+                    android:id="@+id/view4"
+                    android:layout_width="0dp"
+                    android:layout_height="526dp"
+                    android:layout_marginBottom="8dp"
+                    android:layout_marginEnd="8dp"
+                    android:layout_marginLeft="8dp"
+                    android:layout_marginRight="8dp"
+                    android:layout_marginStart="8dp"
+                    android:layout_marginTop="8dp"
+                    android:background="@android:color/background_light"
+                    app:layout_constraintBottom_toBottomOf="parent"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toBottomOf="@+id/imageView8" />
+
+                <ImageView
+                    android:id="@+id/imageView26"
+                    android:layout_width="49dp"
+                    android:layout_height="38dp"
+                    android:layout_marginLeft="8dp"
+                    android:layout_marginStart="8dp"
+                    app:layout_constraintStart_toStartOf="@+id/view4"
+                    app:layout_constraintTop_toTopOf="@+id/view4"
+                    app:srcCompat="@drawable/logopea" />
+
+                <ImageView
+                    android:id="@+id/signatureuser"
+                    android:layout_width="0dp"
+                    android:layout_height="0dp"
+                    android:layout_marginBottom="8dp"
+                    android:layout_marginEnd="4dp"
+                    android:layout_marginLeft="25dp"
+                    android:layout_marginRight="4dp"
+                    android:layout_marginStart="25dp"
+                    android:layout_marginTop="8dp"
+                    app:layout_constraintBottom_toTopOf="@+id/textView57"
+                    app:layout_constraintEnd_toEndOf="@+id/textView70"
+                    app:layout_constraintHorizontal_bias="0.0"
+                    app:layout_constraintStart_toStartOf="@+id/textView70"
+                    app:layout_constraintTop_toBottomOf="@+id/view15"
+                    app:layout_constraintVertical_bias="1.0"
+                    app:srcCompat="@android:color/white" />
+
+                <View
+                    android:id="@+id/view11"
+                    android:layout_width="1dp"
+                    android:layout_height="0dp"
+                    android:layout_marginEnd="60dp"
+                    android:layout_marginRight="60dp"
+                    android:background="@android:color/black"
+                    app:layout_constraintBottom_toTopOf="@+id/view15"
+                    app:layout_constraintEnd_toStartOf="@+id/view12"
+                    app:layout_constraintTop_toTopOf="@+id/view5" />
+
+                <View
+                    android:id="@+id/view15"
+                    android:layout_width="0dp"
+                    android:layout_height="1dp"
+                    android:layout_marginBottom="60dp"
+                    android:layout_marginTop="8dp"
+                    android:background="@android:color/black"
+                    app:layout_constraintBottom_toTopOf="@+id/view14"
+                    app:layout_constraintEnd_toEndOf="@+id/view4"
+                    app:layout_constraintStart_toStartOf="@+id/view4"
+                    app:layout_constraintTop_toBottomOf="@+id/textView75"
+                    app:layout_constraintVertical_bias="0.0" />
+
+                <View
+                    android:id="@+id/view7"
+                    android:layout_width="1dp"
+                    android:layout_height="0dp"
+                    android:background="@android:color/black"
+                    app:layout_constraintBottom_toTopOf="@+id/view6"
+                    app:layout_constraintEnd_toEndOf="@+id/view4"
+                    app:layout_constraintHorizontal_bias="0.0"
+                    app:layout_constraintStart_toStartOf="@+id/view4"
+                    app:layout_constraintTop_toBottomOf="@+id/view5" />
+
+                <View
+                    android:id="@+id/view5"
+                    android:layout_width="0dp"
+                    android:layout_height="1dp"
+                    android:layout_marginTop="8dp"
+                    android:background="@android:color/black"
+                    app:layout_constraintEnd_toEndOf="@+id/view4"
+                    app:layout_constraintStart_toStartOf="@+id/view4"
+                    app:layout_constraintTop_toBottomOf="@+id/premisestp4" />
+
+                <View
+                    android:id="@+id/view13"
+                    android:layout_width="0dp"
+                    android:layout_height="1dp"
+                    android:layout_marginTop="16dp"
+                    android:background="@android:color/black"
+                    app:layout_constraintEnd_toEndOf="@+id/view4"
+                    app:layout_constraintStart_toStartOf="@+id/view4"
+                    app:layout_constraintTop_toBottomOf="@+id/view5" />
+
+                <View
+                    android:id="@+id/view14"
+                    android:layout_width="0dp"
+                    android:layout_height="1dp"
+                    android:layout_marginBottom="40dp"
+                    android:background="@android:color/black"
+                    app:layout_constraintBottom_toTopOf="@+id/view6"
+                    app:layout_constraintEnd_toEndOf="@+id/view4"
+                    app:layout_constraintStart_toStartOf="@+id/view4" />
+
+                <View
+                    android:id="@+id/view12"
+                    android:layout_width="1dp"
+                    android:layout_height="0dp"
+                    android:layout_marginEnd="60dp"
+                    android:layout_marginRight="60dp"
+                    android:background="@android:color/black"
+                    app:layout_constraintBottom_toTopOf="@+id/view15"
+                    app:layout_constraintEnd_toEndOf="@+id/view5"
+                    app:layout_constraintTop_toTopOf="@+id/view11" />
+
+                <View
+                    android:id="@+id/view6"
+                    android:layout_width="0dp"
+                    android:layout_height="1dp"
+                    android:layout_marginTop="8dp"
+                    android:background="@android:color/black"
+                    app:layout_constraintBottom_toBottomOf="@+id/view4"
+                    app:layout_constraintEnd_toEndOf="@+id/view4"
+                    app:layout_constraintHorizontal_bias="0.0"
+                    app:layout_constraintStart_toStartOf="@+id/view4"
+                    app:layout_constraintTop_toBottomOf="@+id/view5"
+                    app:layout_constraintVertical_bias="1.0" />
+
+                <View
+                    android:id="@+id/view10"
+                    android:layout_width="1dp"
+                    android:layout_height="0dp"
+                    android:background="@android:color/black"
+                    app:layout_constraintBottom_toTopOf="@+id/view6"
+                    app:layout_constraintEnd_toEndOf="@+id/view4"
+                    app:layout_constraintHorizontal_bias="1.0"
+                    app:layout_constraintStart_toStartOf="@+id/view4"
+                    app:layout_constraintTop_toBottomOf="@+id/view5"
+                    app:layout_constraintVertical_bias="1.0" />
+
+                <TextView
+                    android:id="@+id/textView52"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="16dp"
+                    android:text="ใบแจ้งค่าบริการแก้กระแสไฟฟ้าขัดข้อง"
+                    android:textColor="#B8860B"
+                    android:textSize="12sp"
+                    app:layout_constraintEnd_toEndOf="@+id/view4"
+                    app:layout_constraintStart_toStartOf="@+id/view4"
+                    app:layout_constraintTop_toTopOf="@+id/imageView26" />
+
+                <TextView
+                    android:id="@+id/textView53"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="8dp"
+                    android:layout_marginStart="8dp"
+                    android:layout_marginTop="8dp"
+                    android:text="การไฟฟ้าส่วนภูมิภาค\n200 ถนนงามวงศ์วาน แขวงลาดยาว เขตจตุจักร กรุงเทพมหานคร 10900\nเลขประจำตัวผู้เสียภาษีอากร 0994000165501				"
+                    android:textColor="@android:color/black"
+                    android:textSize="4.7dp"
+                    app:layout_constraintStart_toStartOf="@+id/view4"
+                    app:layout_constraintTop_toBottomOf="@+id/imageView26" />
+
+                <TextView
+                    android:id="@+id/customerstp4"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="ชื่อ (Customer)"
+                    android:textColor="@android:color/black"
+                    android:textSize="8dp"
+                    app:layout_constraintStart_toStartOf="@+id/contractAcctstp4"
+                    app:layout_constraintTop_toBottomOf="@+id/contractAcctstp4" />
+
+                <TextView
+                    android:id="@+id/textView66"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginEnd="8dp"
+                    android:layout_marginLeft="8dp"
+                    android:layout_marginRight="8dp"
+                    android:layout_marginStart="8dp"
+                    android:text="รายการ/DESCRIPTIONS"
+                    android:textColor="@android:color/black"
+                    android:textSize="8dp"
+                    app:layout_constraintEnd_toStartOf="@+id/view11"
+                    app:layout_constraintStart_toStartOf="@+id/view5"
+                    app:layout_constraintTop_toBottomOf="@+id/view5" />
+
+                <TextView
+                    android:id="@+id/textView91"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginEnd="8dp"
+                    android:layout_marginLeft="8dp"
+                    android:layout_marginRight="8dp"
+                    android:layout_marginStart="8dp"
+                    android:layout_marginTop="12dp"
+                    android:text="text"
+                    android:textColor="@android:color/black"
+                    android:textSize="8dp"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintHorizontal_bias="0.0"
+                    app:layout_constraintStart_toEndOf="@+id/textView62"
+                    app:layout_constraintTop_toTopOf="@+id/textView90" />
+
+                <TextView
+                    android:id="@+id/textView72"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="หักส่วนลด"
+                    android:textColor="@android:color/black"
+                    android:textSize="8dp"
+                    app:layout_constraintEnd_toEndOf="@+id/textView71"
+                    app:layout_constraintTop_toBottomOf="@+id/textView71" />
+
+                <TextView
+                    android:id="@+id/textView38"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="8dp"
+                    android:layout_marginEnd="8dp"
+                    android:layout_marginLeft="8dp"
+                    android:layout_marginRight="8dp"
+                    android:layout_marginStart="8dp"
+                    android:text="text"
+                    android:textColor="@android:color/black"
+                    android:textSize="8dp"
+                    app:layout_constraintBottom_toTopOf="@+id/contractAcctstp4"
+                    app:layout_constraintEnd_toEndOf="@+id/contractAcctstp4"
+                    app:layout_constraintHorizontal_bias="0.0"
+                    app:layout_constraintStart_toEndOf="@+id/peaNostp4"
+                    app:layout_constraintTop_toTopOf="@+id/peaNostp4"
+                    app:layout_constraintVertical_bias="0.0" />
+
+                <TextView
+                    android:id="@+id/textView75"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="รวม"
+                    android:textColor="@android:color/black"
+                    android:textSize="8dp"
+                    app:layout_constraintEnd_toEndOf="@+id/textView74"
+                    app:layout_constraintTop_toBottomOf="@+id/textView74" />
+
+                <TextView
+                    android:id="@+id/dateText"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="8dp"
+                    android:layout_marginStart="8dp"
+                    android:text="วันที่"
+                    android:textColor="@android:color/black"
+                    android:textSize="8dp"
+                    app:layout_constraintStart_toEndOf="@+id/textView55"
+                    app:layout_constraintTop_toTopOf="@+id/textView55" />
+
+                <TextView
+                    android:id="@+id/textView68"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="8dp"
+                    android:layout_marginStart="8dp"
+                    android:layout_marginTop="1dp"
+                    android:text="1. โปรดชำระหนี้ ตามจำนวนข้างต้นภายใน  3  วัน\nนับจากวันที่รับใบแจ้งหนี้\n2. เมื่อชำระเงินตามจำนวนข้างต้น ต้องเรียกใบเสร็จรับเงินทุกครั้ง มิฉะนั้น การไฟฟ้าส่วนภูมิภาคจะ\nไม่ยอมรับว่าได้ชำระเงินถูกต้อง"
+                    android:textColor="@android:color/black"
+                    android:textSize="6.3dp"
+                    app:layout_constraintBottom_toTopOf="@+id/view6"
+                    app:layout_constraintStart_toEndOf="@+id/textView67"
+                    app:layout_constraintTop_toBottomOf="@+id/view14" />
+
+                <TextView
+                    android:id="@+id/textView81"
+                    android:layout_width="0dp"
+                    android:layout_height="138dp"
+                    android:layout_marginEnd="8dp"
+                    android:layout_marginLeft="8dp"
+                    android:layout_marginRight="8dp"
+                    android:layout_marginStart="8dp"
+                    android:text="TextView"
+                    android:textColor="@android:color/black"
+                    android:textSize="8dp"
+                    app:layout_constraintEnd_toStartOf="@+id/view11"
+                    app:layout_constraintStart_toEndOf="@+id/view7"
+                    app:layout_constraintTop_toBottomOf="@+id/view13" />
+
+
+                <TextView
+                    android:id="@+id/textView64"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="8dp"
+                    android:layout_marginStart="8dp"
+                    android:text="จำนวนเงิน	"
+                    android:textColor="@android:color/black"
+                    android:textSize="8dp"
+                    app:layout_constraintEnd_toStartOf="@+id/view10"
+                    app:layout_constraintStart_toEndOf="@+id/view12"
+                    app:layout_constraintTop_toBottomOf="@+id/view5" />
+
+                <TextView
+                    android:id="@+id/textView71"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginEnd="8dp"
+                    android:layout_marginRight="8dp"
+                    android:text="ค่าสินค้า/บริการ"
+                    android:textColor="@android:color/black"
+                    android:textSize="8dp"
+                    app:layout_constraintEnd_toStartOf="@+id/view11"
+                    app:layout_constraintTop_toBottomOf="@+id/textView81" />
+
+                <TextView
+                    android:id="@+id/textView90"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="8dp"
+                    android:layout_marginLeft="8dp"
+                    android:layout_marginStart="8dp"
+                    android:text="text"
+                    android:textColor="@android:color/black"
+                    android:textSize="8dp"
+                    app:layout_constraintBottom_toTopOf="@+id/premisestp4"
+                    app:layout_constraintEnd_toEndOf="@+id/textView91"
+                    app:layout_constraintHorizontal_bias="0.0"
+                    app:layout_constraintStart_toEndOf="@+id/customerstp4"
+                    app:layout_constraintTop_toTopOf="@+id/customerstp4"
+                    app:layout_constraintVertical_bias="0.0" />
+
+                <TextView
+                    android:id="@+id/textView83"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginEnd="8dp"
+                    android:layout_marginLeft="8dp"
+                    android:layout_marginRight="8dp"
+                    android:layout_marginStart="8dp"
+                    android:text="TextView"
+                    android:textColor="@android:color/black"
+                    android:textSize="8dp"
+                    app:layout_constraintEnd_toStartOf="@+id/view10"
+                    app:layout_constraintStart_toEndOf="@+id/view12"
+                    app:layout_constraintTop_toTopOf="@+id/textView81" />
+
+                <TextView
+                    android:id="@+id/textView67"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="8dp"
+                    android:layout_marginStart="8dp"
+                    android:layout_marginTop="8dp"
+                    android:text="หมายเหตุ"
+                    android:textColor="@android:color/black"
+                    android:textSize="8dp"
+                    app:layout_constraintStart_toEndOf="@+id/view7"
+                    app:layout_constraintTop_toBottomOf="@+id/view14" />
+
+                <TextView
+                    android:id="@+id/textView82"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginEnd="8dp"
+                    android:layout_marginLeft="8dp"
+                    android:layout_marginRight="8dp"
+                    android:layout_marginStart="8dp"
+                    android:text="TextView"
+                    android:textColor="@android:color/black"
+                    android:textSize="8dp"
+                    app:layout_constraintEnd_toStartOf="@+id/view12"
+                    app:layout_constraintStart_toEndOf="@+id/view11"
+                    app:layout_constraintTop_toTopOf="@+id/textView81" />
+
+                <TextView
+                    android:id="@+id/textView65"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginEnd="8dp"
+                    android:layout_marginLeft="8dp"
+                    android:layout_marginRight="8dp"
+                    android:layout_marginStart="8dp"
+                    android:text="จำนวนหน่วย"
+                    android:textColor="@android:color/black"
+                    android:textSize="8dp"
+                    app:layout_constraintEnd_toStartOf="@+id/view12"
+                    app:layout_constraintStart_toEndOf="@+id/view11"
+                    app:layout_constraintTop_toBottomOf="@+id/view5" />
+
+                <TextView
+                    android:id="@+id/textView77"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="                   "
+                    android:textColor="@android:color/black"
+                    android:textSize="8dp"
+                    app:layout_constraintEnd_toEndOf="@+id/textView76"
+                    app:layout_constraintHorizontal_bias="1.0"
+                    app:layout_constraintStart_toStartOf="@+id/textView76"
+                    app:layout_constraintTop_toTopOf="@+id/textView72" />
+
+                <TextView
+                    android:id="@+id/textView76"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginEnd="8dp"
+                    android:layout_marginLeft="8dp"
+                    android:layout_marginRight="8dp"
+                    android:layout_marginStart="8dp"
+                    android:text="                      "
+                    android:textColor="@android:color/black"
+                    android:textSize="8dp"
+                    app:layout_constraintEnd_toEndOf="@+id/view4"
+                    app:layout_constraintHorizontal_bias="1.0"
+                    app:layout_constraintStart_toEndOf="@+id/textView71"
+                    app:layout_constraintTop_toTopOf="@+id/textView71" />
+
+                <TextView
+                    android:id="@+id/textView78"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="8dp"
+                    android:layout_marginStart="8dp"
+                    android:text="                    "
+                    android:textColor="@android:color/black"
+                    android:textSize="8dp"
+                    app:layout_constraintEnd_toEndOf="@+id/textView77"
+                    app:layout_constraintHorizontal_bias="1.0"
+                    app:layout_constraintStart_toEndOf="@+id/textView71"
+                    app:layout_constraintTop_toTopOf="@+id/textView73" />
+
+                <TextView
+                    android:id="@+id/textView79"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="8dp"
+                    android:layout_marginStart="8dp"
+                    android:text="               "
+                    android:textColor="@android:color/black"
+                    android:textSize="8dp"
+                    app:layout_constraintEnd_toEndOf="@+id/textView78"
+                    app:layout_constraintHorizontal_bias="1.0"
+                    app:layout_constraintStart_toEndOf="@+id/textView74"
+                    app:layout_constraintTop_toBottomOf="@+id/textView78" />
+
+                <TextView
+                    android:id="@+id/textView80"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="8dp"
+                    android:layout_marginStart="8dp"
+                    android:text="                 "
+                    android:textColor="@android:color/black"
+                    android:textSize="8dp"
+                    app:layout_constraintEnd_toEndOf="@+id/textView79"
+                    app:layout_constraintHorizontal_bias="1.0"
+                    app:layout_constraintStart_toEndOf="@+id/textView71"
+                    app:layout_constraintTop_toTopOf="@+id/textView75" />
+
+                <TextView
+                    android:id="@+id/textView54"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginEnd="8dp"
+                    android:layout_marginLeft="8dp"
+                    android:layout_marginRight="8dp"
+                    android:layout_marginStart="8dp"
+                    android:layout_marginTop="8dp"
+                    android:text="เลขที่....................  ลว.................\nสาขาที่ออกใบกำกับคือ:ที่ 00654\nการไฟฟ้าส่วนภูมิภาคอำเภอวารินชำราบ\nเลขที่ 46/2-3 หมู่8\nตำบลแสนสุข อำเภอวารินชำราบ\nจังหวัดอุบลราชธานี 34190"
+                    android:textColor="@android:color/black"
+                    android:textSize="8dp"
+                    app:layout_constraintEnd_toEndOf="@+id/view4"
+                    app:layout_constraintHorizontal_bias="1.0"
+                    app:layout_constraintStart_toEndOf="@+id/textView53"
+                    app:layout_constraintTop_toBottomOf="@+id/textView52" />
+
+                <TextView
+                    android:id="@+id/textView55"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="วันที่"
+                    android:textColor="@android:color/black"
+                    android:textSize="8dp"
+                    app:layout_constraintStart_toStartOf="@+id/textView54"
+                    app:layout_constraintTop_toBottomOf="@+id/textView54" />
+
+                <TextView
+                    android:id="@+id/textView62"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="8dp"
+                    android:text="ที่อยู่ (Address)"
+                    android:textColor="@android:color/black"
+                    android:textSize="8dp"
+                    app:layout_constraintBottom_toTopOf="@+id/premisestp4"
+                    app:layout_constraintStart_toStartOf="@+id/customerstp4"
+                    app:layout_constraintTop_toBottomOf="@+id/customerstp4"
+                    app:layout_constraintVertical_bias="0.0" />
+
+                <TextView
+                    android:id="@+id/textView74"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="ภาษี 7 %"
+                    android:textColor="@android:color/black"
+                    android:textSize="8dp"
+                    app:layout_constraintEnd_toEndOf="@+id/textView73"
+                    app:layout_constraintTop_toBottomOf="@+id/textView73" />
+
+                <TextView
+                    android:id="@+id/contractAcctstp4"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="1dp"
+                    android:text="เลขที่บัญชีแสดงสัญญา (Contract Acct)"
+                    android:textColor="@android:color/black"
+                    android:textSize="8dp"
+                    app:layout_constraintStart_toStartOf="@+id/peaNostp4"
+                    app:layout_constraintTop_toBottomOf="@+id/peaNostp4" />
+
+                <TextView
+                    android:id="@+id/premisestp4"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="4dp"
+                    android:text="ที่อยู่สถานที่ใช้ไฟฟ้า ( Premise Addr):	"
+                    android:textColor="@android:color/black"
+                    android:textSize="8dp"
+                    app:layout_constraintStart_toStartOf="@+id/textView62"
+                    app:layout_constraintTop_toBottomOf="@+id/textView91" />
+
+                <TextView
+                    android:id="@+id/textView70"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="8dp"
+                    android:layout_marginLeft="8dp"
+                    android:layout_marginStart="8dp"
+                    android:gravity="center"
+                    android:text="\n(ลงชื่อ)…......………...…………………..….."
+                    android:textColor="@android:color/black"
+                    android:textSize="8dp"
+                    app:layout_constraintBottom_toTopOf="@+id/view14"
+                    app:layout_constraintStart_toEndOf="@+id/view7"
+                    app:layout_constraintTop_toBottomOf="@+id/view15"
+                    app:layout_constraintVertical_bias="0.53" />
+
+                <TextView
+                    android:id="@+id/textView69"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="8dp"
+                    android:layout_marginEnd="32dp"
+                    android:layout_marginRight="32dp"
+                    android:text="\n  (ลงชื่อ)…......………...…………………..….."
+                    android:textColor="@android:color/black"
+                    android:textSize="8dp"
+                    app:layout_constraintBottom_toTopOf="@+id/view14"
+                    app:layout_constraintEnd_toStartOf="@+id/view10"
+                    app:layout_constraintTop_toBottomOf="@+id/view15"
+                    app:layout_constraintVertical_bias="0.49" />
+
+                <TextView
+                    android:id="@+id/textView39"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginEnd="8dp"
+                    android:layout_marginLeft="8dp"
+                    android:layout_marginRight="8dp"
+                    android:layout_marginStart="8dp"
+                    android:layout_marginTop="3dp"
+                    android:text="( นายสืบพงษ์ จำปาเทศ )"
+                    android:textColor="@android:color/black"
+                    android:textSize="8sp"
+                    app:layout_constraintEnd_toEndOf="@+id/textView69"
+                    app:layout_constraintStart_toStartOf="@+id/textView69"
+                    app:layout_constraintTop_toBottomOf="@+id/textView69" />
+
+                <TextView
+                    android:id="@+id/textView40"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginEnd="8dp"
+                    android:layout_marginRight="8dp"
+                    android:layout_marginTop="3dp"
+                    android:text="ตำแหน่ง หผ.ปบ.ปฏิบัติการแทน ผจก.กฟอ.วรช"
+                    android:textColor="@android:color/black"
+                    android:textSize="8sp"
+                    app:layout_constraintEnd_toEndOf="@+id/textView39"
+                    app:layout_constraintStart_toStartOf="@+id/textView39"
+                    app:layout_constraintTop_toBottomOf="@+id/textView39" />
+
+                <ImageView
+                    android:id="@+id/imageView12"
+                    android:layout_width="62dp"
+                    android:layout_height="39dp"
+                    android:layout_marginBottom="8dp"
+                    android:layout_marginEnd="8dp"
+                    android:layout_marginLeft="8dp"
+                    android:layout_marginRight="8dp"
+                    android:layout_marginStart="8dp"
+                    app:layout_constraintBottom_toTopOf="@+id/textView39"
+                    app:layout_constraintEnd_toEndOf="@+id/textView69"
+                    app:layout_constraintHorizontal_bias="0.64"
+                    app:layout_constraintStart_toStartOf="@+id/textView69"
+                    app:srcCompat="@drawable/a17319" />
+
+                <TextView
+                    android:id="@+id/peaNostp4"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="รหัสเครื่องวัด (PEA NO.)"
+                    android:textColor="@android:color/black"
+                    android:textSize="8dp"
+                    app:layout_constraintStart_toStartOf="@+id/textView53"
+                    app:layout_constraintTop_toBottomOf="@+id/textView55" />
+
+                <TextView
+                    android:id="@+id/textView73"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="รวมเป็นเงิน"
+                    android:textColor="@android:color/black"
+                    android:textSize="8dp"
+                    app:layout_constraintEnd_toEndOf="@+id/textView72"
+                    app:layout_constraintTop_toBottomOf="@+id/textView72" />
+
+                <TextView
+                    android:id="@+id/textView57"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="8dp"
+                    android:layout_marginStart="8dp"
+                    android:layout_marginTop="3dp"
+                    android:text="(..................................................)"
+                    android:textColor="@android:color/black"
+                    android:textSize="8sp"
+                    app:layout_constraintEnd_toEndOf="@+id/textView70"
+                    app:layout_constraintHorizontal_bias="0.0"
+                    app:layout_constraintStart_toStartOf="@+id/textView70"
+                    app:layout_constraintTop_toBottomOf="@+id/textView70" />
+
+                <TextView
+                    android:id="@+id/textView60"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginEnd="8dp"
+                    android:layout_marginLeft="8dp"
+                    android:layout_marginRight="8dp"
+                    android:layout_marginStart="8dp"
+                    android:layout_marginTop="3dp"
+                    android:text="ผู้รับบริการ"
+                    android:textColor="@android:color/black"
+                    android:textSize="8sp"
+                    app:layout_constraintEnd_toEndOf="@+id/textView57"
+                    app:layout_constraintStart_toStartOf="@+id/textView57"
+                    app:layout_constraintTop_toBottomOf="@+id/textView57" />
+
+            </android.support.constraint.ConstraintLayout>
+        </LinearLayout>
+    </ScrollView>
+
+</android.support.constraint.ConstraintLayout>

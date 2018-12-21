@@ -1,0 +1,705 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@android:color/darker_gray"
+    tools:context=".ReceiptScreen">
+
+    <android.support.constraint.ConstraintLayout
+        android:id="@+id/screenShotLayer"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:layout_marginBottom="8dp"
+        android:layout_marginTop="8dp"
+        android:background="@android:color/background_light"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.0">
+
+        <ImageView
+            android:id="@+id/user_s"
+            android:layout_width="0dp"
+            android:layout_height="22dp"
+            android:layout_marginBottom="8dp"
+            android:layout_marginLeft="26dp"
+            android:layout_marginStart="26dp"
+            app:layout_constraintBottom_toTopOf="@+id/textView104"
+            app:layout_constraintEnd_toEndOf="@+id/textView88"
+            app:layout_constraintStart_toStartOf="@+id/textView88"
+            app:srcCompat="@android:color/background_light" />
+
+        <TextView
+            android:id="@+id/textView100"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginEnd="8dp"
+            android:layout_marginLeft="8dp"
+            android:layout_marginRight="8dp"
+            android:layout_marginStart="8dp"
+            android:text="                 "
+            android:textColor="@android:color/black"
+            android:textSize="8sp"
+            app:layout_constraintEnd_toEndOf="@+id/view25"
+            app:layout_constraintHorizontal_bias="0.988"
+            app:layout_constraintStart_toEndOf="@+id/textView99"
+            app:layout_constraintTop_toTopOf="@+id/textView99" />
+
+        <TextView
+            android:id="@+id/textView80"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginEnd="8dp"
+            android:layout_marginLeft="8dp"
+            android:layout_marginRight="8dp"
+            android:layout_marginStart="8dp"
+            android:text="                 "
+            android:textColor="@android:color/black"
+            android:textSize="8sp"
+            app:layout_constraintEnd_toEndOf="@+id/view31"
+            app:layout_constraintHorizontal_bias="1.0"
+            app:layout_constraintStart_toEndOf="@+id/textView98"
+            app:layout_constraintTop_toBottomOf="@+id/textView97" />
+
+        <TextView
+            android:id="@+id/textView78"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginEnd="8dp"
+            android:layout_marginLeft="8dp"
+            android:layout_marginRight="8dp"
+            android:layout_marginStart="8dp"
+            android:text="                    "
+            android:textColor="@android:color/black"
+            android:textSize="8sp"
+            app:layout_constraintEnd_toEndOf="@+id/view31"
+            app:layout_constraintHorizontal_bias="1.0"
+            app:layout_constraintStart_toEndOf="@+id/textView97"
+            app:layout_constraintTop_toBottomOf="@+id/textView96" />
+
+        <TextView
+            android:id="@+id/textView77"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginEnd="8dp"
+            android:layout_marginLeft="8dp"
+            android:layout_marginRight="8dp"
+            android:layout_marginStart="8dp"
+            android:text="                   "
+            android:textColor="@android:color/black"
+            android:textSize="8sp"
+            app:layout_constraintEnd_toEndOf="@+id/view31"
+            app:layout_constraintHorizontal_bias="1.0"
+            app:layout_constraintStart_toEndOf="@+id/textView96"
+            app:layout_constraintTop_toTopOf="@+id/textView96" />
+
+        <TextView
+            android:id="@+id/textView76"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginEnd="8dp"
+            android:layout_marginLeft="8dp"
+            android:layout_marginRight="8dp"
+            android:layout_marginStart="8dp"
+            android:text="                      "
+            android:textColor="@android:color/black"
+            android:textSize="8sp"
+            app:layout_constraintEnd_toEndOf="@+id/view31"
+            app:layout_constraintHorizontal_bias="1.0"
+            app:layout_constraintStart_toEndOf="@+id/textView95"
+            app:layout_constraintTop_toTopOf="@+id/view31" />
+
+        <TextView
+            android:id="@+id/dateText2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="8dp"
+            android:layout_marginStart="8dp"
+            android:text="วันที่"
+            android:textColor="@android:color/black"
+            android:textSize="8sp"
+            app:layout_constraintStart_toEndOf="@+id/textView59"
+            app:layout_constraintTop_toTopOf="@+id/textView59" />
+
+        <ImageView
+            android:id="@+id/imageView5"
+            android:layout_width="61dp"
+            android:layout_height="38dp"
+            android:layout_marginTop="4dp"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:srcCompat="@drawable/logopea" />
+
+        <TextView
+            android:id="@+id/textView23"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="8dp"
+            android:layout_marginEnd="8dp"
+            android:layout_marginLeft="32dp"
+            android:layout_marginRight="8dp"
+            android:layout_marginStart="32dp"
+            android:layout_marginTop="8dp"
+            android:text="ใบแจ้งค่าบริการแก้กระแสไฟฟ้าขัดข้อง"
+            android:textColor="#B8860B"
+            android:textSize="8sp"
+            app:layout_constraintBottom_toBottomOf="@+id/imageView5"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="@+id/imageView5" />
+
+        <TextView
+            android:id="@+id/textView31"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="8dp"
+            android:layout_marginStart="8dp"
+            android:text="การไฟฟ้าส่วนภูมิภาค\n200 ถนนงามวงศ์วาน แขวงลาดยาว เขตจตุจักร กรุงเทพมหานคร 10900\nเลขประจำตัวผู้เสียภาษีอากร 0994000165501				"
+            android:textColor="@android:color/black"
+            android:textSize="5dp"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/imageView5" />
+
+        <TextView
+            android:id="@+id/textView56"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginEnd="8dp"
+            android:layout_marginLeft="8dp"
+            android:layout_marginRight="8dp"
+            android:layout_marginStart="8dp"
+            android:text="เลขที่....................  ลว.................\nสาขาที่ออกใบกำกับคือ:ที่ 00654\nการไฟฟ้าส่วนภูมิภาคอำเภอวารินชำราบ\nเลขที่ 46/2-3 หมู่8\nตำบลแสนสุข อำเภอวารินชำราบ\nจังหวัดอุบลราชธานี 34190"
+            android:textColor="@android:color/black"
+            android:textSize="8sp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="1.0"
+            app:layout_constraintStart_toEndOf="@+id/textView31"
+            app:layout_constraintTop_toTopOf="@+id/textView31" />
+
+        <TextView
+            android:id="@+id/textView58"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="เลขที่ใบแจ้งรายการชำระ:\nเลขที่ใบสั่งขาย :\nเลขที่ใบคำร้อง :"
+            android:textColor="@android:color/black"
+            android:textSize="8sp"
+            app:layout_constraintStart_toStartOf="@+id/textView56"
+            app:layout_constraintTop_toBottomOf="@+id/textView59" />
+
+        <TextView
+            android:id="@+id/textView59"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="วันที่"
+            android:textColor="@android:color/black"
+            android:textSize="8sp"
+            app:layout_constraintStart_toStartOf="@+id/textView56"
+            app:layout_constraintTop_toBottomOf="@+id/textView56" />
+
+        <TextView
+            android:id="@+id/premisestp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="ที่อยู่สถานที่ใช้ไฟฟ้า ( Premise Addr):	"
+            android:textColor="@android:color/black"
+            android:textSize="8sp"
+            app:layout_constraintStart_toStartOf="@+id/textView61"
+            app:layout_constraintTop_toBottomOf="@+id/textView61" />
+
+        <TextView
+            android:id="@+id/textView61"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="ที่อยู่ (Address)"
+            android:textColor="@android:color/black"
+            android:textSize="8sp"
+            app:layout_constraintStart_toStartOf="@+id/customerstp"
+            app:layout_constraintTop_toBottomOf="@+id/customerstp" />
+
+        <TextView
+            android:id="@+id/customerstp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="ชื่อ (Customer)"
+            android:textColor="@android:color/black"
+            android:textSize="8sp"
+            app:layout_constraintStart_toStartOf="@+id/contractAcctstp"
+            app:layout_constraintTop_toBottomOf="@+id/contractAcctstp" />
+
+        <TextView
+            android:id="@+id/contractAcctstp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="เลขที่บัญชีแสดงสัญญา (Contract Acct)"
+            android:textColor="@android:color/black"
+            android:textSize="8sp"
+            app:layout_constraintStart_toStartOf="@+id/peaNostp"
+            app:layout_constraintTop_toBottomOf="@+id/peaNostp" />
+
+        <TextView
+            android:id="@+id/peaNostp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="8dp"
+            android:text="รหัสเครื่องวัด (PEA NO.)"
+            android:textColor="@android:color/black"
+            android:textSize="8sp"
+            app:layout_constraintStart_toStartOf="@+id/textView31"
+            app:layout_constraintTop_toBottomOf="@+id/textView58" />
+
+        <TextView
+            android:id="@+id/textView84"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="8dp"
+            android:layout_marginLeft="8dp"
+            android:layout_marginStart="8dp"
+            android:text="หมายเหตุ"
+            android:textColor="@android:color/black"
+            android:textSize="8sp"
+            app:layout_constraintBottom_toTopOf="@+id/view20"
+            app:layout_constraintStart_toEndOf="@+id/view21"
+            app:layout_constraintTop_toBottomOf="@+id/view24" />
+
+        <TextView
+            android:id="@+id/textView85"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginEnd="8dp"
+            android:layout_marginLeft="8dp"
+            android:layout_marginRight="8dp"
+            android:layout_marginStart="8dp"
+            android:text="1. โปรดชำระหนี้ ตามจำนวนข้างต้นภายใน  3  วัน\nนับจากวันที่รับใบแจ้งหนี้\n2. เมื่อชำระเงินตามจำนวนข้างต้น ต้องเรียกใบเสร็จรับเงินทุกครั้ง มิฉะนั้น การไฟฟ้าส่วนภูมิภาคจะ\nไม่ยอมรับว่าได้ชำระเงินถูกต้อง"
+            android:textColor="@android:color/black"
+            android:textSize="6dp"
+            app:layout_constraintBottom_toTopOf="@+id/view20"
+            app:layout_constraintEnd_toStartOf="@+id/view22"
+            app:layout_constraintStart_toEndOf="@+id/textView84"
+            app:layout_constraintTop_toBottomOf="@+id/view24" />
+
+        <View
+            android:id="@+id/view19"
+            android:layout_width="0dp"
+            android:layout_height="1dp"
+            android:layout_marginEnd="8dp"
+            android:layout_marginLeft="8dp"
+            android:layout_marginRight="8dp"
+            android:layout_marginStart="8dp"
+            android:layout_marginTop="8dp"
+            android:background="@android:color/black"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/premisestp" />
+
+        <View
+            android:id="@+id/view23"
+            android:layout_width="0dp"
+            android:layout_height="1dp"
+            android:layout_marginTop="24dp"
+            android:background="@android:color/black"
+            app:layout_constraintEnd_toEndOf="@+id/view19"
+            app:layout_constraintHorizontal_bias="0.0"
+            app:layout_constraintStart_toStartOf="@+id/view19"
+            app:layout_constraintTop_toBottomOf="@+id/view19" />
+
+        <View
+            android:id="@+id/view24"
+            android:layout_width="0dp"
+            android:layout_height="1dp"
+            android:layout_marginBottom="35dp"
+            android:background="@android:color/black"
+            app:layout_constraintBottom_toTopOf="@+id/view20"
+            app:layout_constraintEnd_toEndOf="@+id/view19"
+            app:layout_constraintHorizontal_bias="0.0"
+            app:layout_constraintStart_toStartOf="@+id/view19" />
+
+        <View
+            android:id="@+id/view25"
+            android:layout_width="0dp"
+            android:layout_height="1dp"
+            android:layout_marginBottom="60dp"
+            android:background="@android:color/black"
+            app:layout_constraintBottom_toTopOf="@+id/view24"
+            app:layout_constraintEnd_toEndOf="@+id/view19"
+            app:layout_constraintHorizontal_bias="0.0"
+            app:layout_constraintStart_toStartOf="@+id/view19" />
+
+        <View
+            android:id="@+id/view20"
+            android:layout_width="0dp"
+            android:layout_height="1dp"
+            android:layout_marginBottom="8dp"
+            android:layout_marginEnd="8dp"
+            android:layout_marginLeft="8dp"
+            android:layout_marginRight="8dp"
+            android:layout_marginStart="8dp"
+            android:background="@android:color/black"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.0"
+            app:layout_constraintStart_toStartOf="parent" />
+
+        <View
+            android:id="@+id/view21"
+            android:layout_width="1dp"
+            android:layout_height="0dp"
+            android:background="@android:color/black"
+            app:layout_constraintBottom_toBottomOf="@+id/view20"
+            app:layout_constraintStart_toStartOf="@+id/view20"
+            app:layout_constraintTop_toTopOf="@+id/view19" />
+
+        <View
+            android:id="@+id/view28"
+            android:layout_width="1dp"
+            android:layout_height="0dp"
+            android:layout_marginEnd="4dp"
+            android:layout_marginRight="4dp"
+            android:background="@android:color/black"
+            app:layout_constraintBottom_toTopOf="@+id/view25"
+            app:layout_constraintEnd_toStartOf="@+id/textView87"
+            app:layout_constraintTop_toTopOf="@+id/view19"
+            app:layout_constraintVertical_bias="0.0" />
+
+        <View
+            android:id="@+id/view29"
+            android:layout_width="1dp"
+            android:layout_height="0dp"
+            android:layout_marginEnd="4dp"
+            android:layout_marginRight="4dp"
+            android:background="@android:color/black"
+            app:layout_constraintBottom_toTopOf="@+id/view25"
+            app:layout_constraintEnd_toStartOf="@+id/textView86"
+            app:layout_constraintTop_toTopOf="@+id/view19"
+            app:layout_constraintVertical_bias="0.0" />
+
+        <View
+            android:id="@+id/view22"
+            android:layout_width="1dp"
+            android:layout_height="0dp"
+            android:background="@android:color/black"
+            app:layout_constraintBottom_toBottomOf="@+id/view20"
+            app:layout_constraintEnd_toEndOf="@+id/view20"
+            app:layout_constraintTop_toTopOf="@+id/view19" />
+
+        <TextView
+            android:id="@+id/textView87"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginEnd="4dp"
+            android:layout_marginRight="4dp"
+            android:text="จำนวนเงิน	"
+            android:textColor="@android:color/black"
+            android:textSize="8sp"
+            app:layout_constraintBottom_toBottomOf="@+id/textView86"
+            app:layout_constraintEnd_toStartOf="@+id/view22"
+            app:layout_constraintTop_toTopOf="@+id/textView86" />
+
+        <TextView
+            android:id="@+id/textView63"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="8dp"
+            android:layout_marginEnd="8dp"
+            android:layout_marginLeft="8dp"
+            android:layout_marginRight="8dp"
+            android:layout_marginStart="8dp"
+            android:layout_marginTop="8dp"
+            android:text="รายการ/DESCRIPTIONS"
+            android:textColor="@android:color/black"
+            android:textSize="8sp"
+            app:layout_constraintBottom_toBottomOf="@+id/view23"
+            app:layout_constraintEnd_toStartOf="@+id/view29"
+            app:layout_constraintStart_toEndOf="@+id/view21"
+            app:layout_constraintTop_toBottomOf="@+id/view19" />
+
+        <TextView
+            android:id="@+id/textView86"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginEnd="4dp"
+            android:layout_marginRight="4dp"
+            android:text="จำนวนหน่วย"
+            android:textColor="@android:color/black"
+            android:textSize="8sp"
+            app:layout_constraintBottom_toBottomOf="@+id/textView63"
+            app:layout_constraintEnd_toStartOf="@+id/view28"
+            app:layout_constraintTop_toTopOf="@+id/textView63" />
+
+        <TextView
+            android:id="@+id/textView88"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="24dp"
+            android:layout_marginStart="24dp"
+            android:gravity="center"
+            android:text="(ลงชื่อ)…......………...…………………..….."
+            android:textColor="@android:color/black"
+            android:textSize="8sp"
+            app:layout_constraintBottom_toTopOf="@+id/view24"
+            app:layout_constraintStart_toEndOf="@+id/view21"
+            app:layout_constraintTop_toBottomOf="@+id/view25"
+            app:layout_constraintVertical_bias="0.387" />
+
+        <TextView
+            android:id="@+id/textView89"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginEnd="32dp"
+            android:layout_marginRight="32dp"
+            android:text="(ลงชื่อ)…......………...…………………..….."
+            android:textColor="@android:color/black"
+            android:textSize="8sp"
+            app:layout_constraintBottom_toTopOf="@+id/view24"
+            app:layout_constraintEnd_toStartOf="@+id/view22"
+            app:layout_constraintTop_toBottomOf="@+id/view25"
+            app:layout_constraintVertical_bias="0.39" />
+
+        <View
+            android:id="@+id/view31"
+            android:layout_width="0dp"
+            android:layout_height="64dp"
+            app:layout_constraintBottom_toTopOf="@+id/view25"
+            app:layout_constraintEnd_toStartOf="@+id/view22"
+            app:layout_constraintStart_toEndOf="@+id/view21" />
+
+        <TextView
+            android:id="@+id/textView95"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginEnd="8dp"
+            android:layout_marginRight="8dp"
+            android:text="ค่าสินค้า/บริการ"
+            android:textColor="@android:color/black"
+            android:textSize="8sp"
+            app:layout_constraintBottom_toTopOf="@+id/textView96"
+            app:layout_constraintEnd_toStartOf="@+id/view29"
+            app:layout_constraintTop_toTopOf="@+id/view31"
+            app:layout_constraintVertical_bias="1.0" />
+
+        <TextView
+            android:id="@+id/textView96"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="หักส่วนลด"
+            android:textColor="@android:color/black"
+            android:textSize="8sp"
+            app:layout_constraintBottom_toTopOf="@+id/textView97"
+            app:layout_constraintEnd_toEndOf="@+id/textView95" />
+
+        <TextView
+            android:id="@+id/textView97"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="รวมเป็นเงิน"
+            android:textColor="@android:color/black"
+            android:textSize="8sp"
+            app:layout_constraintBottom_toTopOf="@+id/textView98"
+            app:layout_constraintEnd_toEndOf="@+id/textView96" />
+
+        <TextView
+            android:id="@+id/textView98"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="ภาษี 7 %"
+            android:textColor="@android:color/black"
+            android:textSize="8sp"
+            app:layout_constraintBottom_toTopOf="@+id/textView99"
+            app:layout_constraintEnd_toEndOf="@+id/textView97"
+            app:layout_constraintHorizontal_bias="1.0"
+            app:layout_constraintStart_toStartOf="@+id/textView97" />
+
+        <TextView
+            android:id="@+id/textView99"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="4dp"
+            android:layout_marginEnd="8dp"
+            android:layout_marginRight="8dp"
+            android:text="รวม"
+            android:textColor="@android:color/black"
+            android:textSize="8sp"
+            app:layout_constraintBottom_toTopOf="@+id/view25"
+            app:layout_constraintEnd_toEndOf="@+id/textView98" />
+
+        <TextView
+            android:id="@+id/textView38"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginEnd="8dp"
+            android:layout_marginLeft="8dp"
+            android:layout_marginRight="8dp"
+            android:layout_marginStart="8dp"
+            android:text="text"
+            android:textColor="@android:color/black"
+            android:textSize="8sp"
+            app:layout_constraintBottom_toTopOf="@+id/contractAcctstp"
+            app:layout_constraintEnd_toEndOf="@+id/contractAcctstp"
+            app:layout_constraintHorizontal_bias="0.25"
+            app:layout_constraintStart_toEndOf="@+id/peaNostp"
+            app:layout_constraintTop_toTopOf="@+id/peaNostp"
+            app:layout_constraintVertical_bias="0.0" />
+
+        <TextView
+            android:id="@+id/textView90"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginEnd="8dp"
+            android:layout_marginLeft="8dp"
+            android:layout_marginRight="8dp"
+            android:layout_marginStart="8dp"
+            android:layout_marginTop="8dp"
+            android:text="text"
+            android:textColor="@android:color/black"
+            android:textSize="8sp"
+            app:layout_constraintBottom_toBottomOf="@+id/customerstp"
+            app:layout_constraintEnd_toEndOf="@+id/contractAcctstp"
+            app:layout_constraintHorizontal_bias="0.0"
+            app:layout_constraintStart_toEndOf="@+id/customerstp"
+            app:layout_constraintTop_toTopOf="@+id/customerstp"
+            app:layout_constraintVertical_bias="1.0" />
+
+        <TextView
+            android:id="@+id/textView91"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="8dp"
+            android:layout_marginEnd="8dp"
+            android:layout_marginLeft="8dp"
+            android:layout_marginRight="8dp"
+            android:layout_marginStart="8dp"
+            android:layout_marginTop="12dp"
+            android:text="text"
+            android:textColor="@android:color/black"
+            android:textSize="8sp"
+            app:layout_constraintBottom_toTopOf="@+id/premisestp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.017"
+            app:layout_constraintStart_toEndOf="@+id/textView61"
+            app:layout_constraintTop_toTopOf="@+id/textView90"
+            app:layout_constraintVertical_bias="0.0" />
+
+        <TextView
+            android:id="@+id/textView81"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="8dp"
+            android:layout_marginStart="8dp"
+            android:layout_marginTop="12dp"
+            android:text="TextView"
+            android:textColor="@android:color/black"
+            android:textSize="8sp"
+            app:layout_constraintStart_toStartOf="@+id/view25"
+            app:layout_constraintTop_toBottomOf="@+id/textView63" />
+
+        <TextView
+            android:id="@+id/textView82"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginEnd="8dp"
+            android:layout_marginLeft="8dp"
+            android:layout_marginRight="8dp"
+            android:layout_marginStart="8dp"
+            android:text="TextView"
+            android:textColor="@android:color/black"
+            android:textSize="8sp"
+            app:layout_constraintEnd_toStartOf="@+id/view28"
+            app:layout_constraintStart_toEndOf="@+id/view29"
+            app:layout_constraintTop_toTopOf="@+id/textView81" />
+
+        <TextView
+            android:id="@+id/textView83"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginEnd="8dp"
+            android:layout_marginLeft="8dp"
+            android:layout_marginRight="8dp"
+            android:layout_marginStart="8dp"
+            android:text="TextView"
+            android:textColor="@android:color/black"
+            android:textSize="8sp"
+            app:layout_constraintEnd_toEndOf="@+id/view23"
+            app:layout_constraintStart_toEndOf="@+id/view28"
+            app:layout_constraintTop_toTopOf="@+id/textView81" />
+
+        <TextView
+            android:id="@+id/textView94"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginEnd="8dp"
+            android:layout_marginLeft="8dp"
+            android:layout_marginRight="8dp"
+            android:layout_marginStart="8dp"
+            android:layout_marginTop="3dp"
+            android:text="( นายสืบพงษ์ จำปาเทศ )"
+            android:textColor="@android:color/black"
+            android:textSize="8sp"
+            app:layout_constraintEnd_toEndOf="@+id/textView89"
+            app:layout_constraintStart_toStartOf="@+id/textView89"
+            app:layout_constraintTop_toBottomOf="@+id/textView89" />
+
+        <TextView
+            android:id="@+id/textView103"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginEnd="8dp"
+            android:layout_marginRight="8dp"
+            android:layout_marginTop="3dp"
+            android:text="ตำแหน่ง หผ.ปบ.ปฏิบัติการแทน ผจก.กฟอ.วรช"
+            android:textColor="@android:color/black"
+            android:textSize="8sp"
+            app:layout_constraintEnd_toEndOf="@+id/textView94"
+            app:layout_constraintStart_toStartOf="@+id/textView94"
+            app:layout_constraintTop_toBottomOf="@+id/textView94" />
+
+        <ImageView
+            android:id="@+id/imageView29"
+            android:layout_width="43dp"
+            android:layout_height="25dp"
+            android:layout_marginBottom="7dp"
+            android:layout_marginEnd="8dp"
+            android:layout_marginLeft="8dp"
+            android:layout_marginRight="8dp"
+            android:layout_marginStart="8dp"
+            app:layout_constraintBottom_toTopOf="@+id/textView94"
+            app:layout_constraintEnd_toEndOf="@+id/textView89"
+            app:layout_constraintHorizontal_bias="0.608"
+            app:layout_constraintStart_toStartOf="@+id/textView89"
+            app:srcCompat="@drawable/a17319" />
+
+        <TextView
+            android:id="@+id/textView104"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="8dp"
+            android:layout_marginStart="8dp"
+            android:text="(..................................................)"
+            android:textColor="@android:color/black"
+            android:textSize="8sp"
+            app:layout_constraintEnd_toEndOf="@+id/textView88"
+            app:layout_constraintHorizontal_bias="0.0"
+            app:layout_constraintStart_toStartOf="@+id/textView88"
+            app:layout_constraintTop_toBottomOf="@+id/textView88" />
+
+        <TextView
+            android:id="@+id/textView105"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginEnd="8dp"
+            android:layout_marginLeft="8dp"
+            android:layout_marginRight="8dp"
+            android:layout_marginStart="8dp"
+            android:layout_marginTop="3dp"
+            android:text="ผู้รับบริการ"
+            android:textColor="@android:color/black"
+            android:textSize="8sp"
+            app:layout_constraintEnd_toEndOf="@+id/textView104"
+            app:layout_constraintStart_toStartOf="@+id/textView104"
+            app:layout_constraintTop_toBottomOf="@+id/textView104" />
+
+
+    </android.support.constraint.ConstraintLayout>
+</android.support.constraint.ConstraintLayout>
