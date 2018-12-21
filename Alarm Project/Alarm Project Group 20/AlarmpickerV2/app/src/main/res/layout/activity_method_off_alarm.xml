@@ -29,5 +29,10 @@
         android:layout_marginBottom="36dp"
         android:paddingTop="15dp"
         app:srcCompat="@drawable/photo" />
+    
+     <TextView
+        android:id="@+id/texterr"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
 
 </LinearLayout>
